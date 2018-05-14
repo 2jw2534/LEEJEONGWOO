@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=define-width , initial-scale=1.0">
+<style>
+	*{box-sizing: border-box;}
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+	@media only screen and (max-width:900px)
+	{
+		/*[class*=col-]{
+			width: 100%;
+		}*/
+		 /*if your device is smaller than 400px, then these classes will be visible to the browser*/
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	}
+	[class*=col-]{
+		float: left;padding:1px;border:2px solid white;
+	}
+
+	.row{
+
+	}
+	.header{border: 1px solid black; text-align: center;margin-bottom: 0px;width: 100%;box-sizing: border-box;color:red; background-color: blue;}
+	img{width:100%;float: left;}
+	.photo{border:1px solid black;width:30%;float: left; }
+	.col{border:1px solid black;float: left;width:70%;}
+	.col1{border:1px solid black; background-color: green;width:25%;float: left;}
+	.col2{border: 1px solid black;background-color: yellow;}
+</style>
+</head>
+<body style="background-color: pink">
+	<div class="row">
+		<div class="col-12 col-s-12 header">Resume</div>
+    </div>
+    <div class="row">
+		<div class="col-4 col-s-12 photo"><img src="gollum.jpg"/></div>
+	</div>
+	<div class="row">
+		<div class="col-8 col-s-12 col">
+		   <div class="col-3 col-s-12 col1">
+		   	Name
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			Lee jeong woo
+		   </div>
+		   <div class="col-3 col-s-12 col1">
+		   	Age
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			20
+		   </div>
+		   <div class="col-3 col-s-12 col1">
+		   	Homtown
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			Daegu
+		   </div>
+		   <div class="col-3 col-s-12 col1">
+		   	University
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			DCU
+		   </div>
+		   <div class="col-3 col-s-12 col1">
+		   	Phone number
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			010-7616-2534
+		   </div>
+		    <div class="col-3 col-s-12 col1">
+		   E-mail
+		   </div>
+		   <div class="col-9 col-s-12  col2">
+			2jw2534@naver.com
+		   </div>
+		    <div class="col-3 col-s-12  col1">
+		   	Hobby
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			Magic,Singing
+		   </div>
+		    <div class="col-3 col-s-12 col1">
+		   	birthday
+		   </div>
+		   <div class="col-9 col-s-12 col2">
+			December 3rd
+		   </div>
+	   </div>
+	 </div>
+	<div class="row">
+		<div class="col-12 col-s-12 footer">Thank you</div>
+	</div>
+</body>
+</html>
